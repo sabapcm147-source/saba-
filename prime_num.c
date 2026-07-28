@@ -11,7 +11,7 @@ int main() {
        printf("\nthe input is invalid");
    }
     else if(n>1){
-       for(i=2;i<=n;i++){
+       for(i=2;i<n;i++){
            q=n%i;
        
        if(q==0)
